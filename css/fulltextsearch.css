@@ -1,0 +1,108 @@
+.icon-fts-files {
+	background-image: url('/apps/files_fulltextsearch/img/files.svg');
+}
+
+.files_header {
+	height: 50px;
+	border-bottom: solid 1px #efefef;
+	position: relative;
+}
+
+.files_header_div {
+	position: absolute;
+	margin-left: 20px;
+	color: #999;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.files_result {
+	/*height: 50px;* 2019-10-28 commented by shmakovpn */
+	position: relative;
+	border-bottom: solid 1px #efefef;
+}
+
+.files_result_div {
+	position: absolute;
+	/* commented by shmakovpn 2019-10-28 */
+	/*top: 50%;
+	transform: translateY(-50%);*/
+	/* end commented by shmakovpn */
+}
+
+.files_div_checkbox {
+	left: 0px;
+	width: 50px;
+}
+
+.files_div_thumb {
+	left: 50px;
+	width: 32px;
+	height: 32px;
+	background-size: 32px;
+	margin-left: 5px;
+}
+
+.files_div_name {
+	left: 100px;
+}
+
+.files_result_title {
+	color: #000;
+	/* added by shmakovpn 2019-10-28 */
+	height: 20px;
+	/* end added by shmakovpn */
+}
+
+.files_result_extract {
+	font-size: 11px;
+	color: #999;
+	margin-top: -5px;
+	margin-bottom: -5px;
+	margin-left: 5px;
+}
+
+/* added by shmakopvn 2019-10-28 */
+.files_result_extract_item {
+	height: 15px;
+}
+/* end added by shmakovpn */
+
+#info {
+	color: #a5a5a5;
+	font-size: 9px;
+	margin-top: -3px;
+}
+
+.files_div_more {
+	width: 50px;
+	right: 280px;
+}
+
+.files_div_more SPAN {
+	padding: 16px 23px 16px 23px;
+	height: 16px;
+	width: 16px;
+	opacity: 0.4;
+}
+
+.files_div_size {
+	right: 160px;
+	width: 100px
+}
+
+.files_div_modified {
+	right: 10px;
+	width: 150px;
+}
+
+.files_result_item {
+	color: #484848;
+	background: #fff;
+	padding: 5px;
+}
+
+.files_force_action_menu {
+	right: 287px;
+	top: 53px;
+}
